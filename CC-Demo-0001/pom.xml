@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.home</groupId>
-	<artifactId>CC-Demo-0001</artifactId>
+	<artifactId>CC-DEMO-0001</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>CC-Demo-0001</name>
-	<description>CC-Demo-0001</description>
+	<name>CC-DEMO-0001</name>
+	<description>CC-DEMO-0001</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
