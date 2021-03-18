@@ -10,9 +10,9 @@ public class DemoOne {
 
 	public static void intStream() {
 		System.out.println("Demo ::::::: 1 2 3 4 ");
-		
+
 		IntStream.range(1, 5).forEach(x -> System.out.println(x));
-		
+
 		System.out.println("Demo ::::::: 1 2 3 4 5 ");
 		IntStream.rangeClosed(1, 5).forEach(x -> System.out.println(x));
 
@@ -37,11 +37,11 @@ public class DemoOne {
 
 		System.out.println("Demo ::::::: 1 2 3 4 5 ");
 		IntStream.of(1, 2, 3, 4, 5).boxed().collect(Collectors.toList()).forEach(x -> System.out.println(x));
-		int [] array=IntStream.of(1, 2, 3, 4, 5).toArray();
-		Arrays.stream(array).forEach(System.out ::println);
+		int[] array = IntStream.of(1, 2, 3, 4, 5).toArray();
+		Arrays.stream(array).forEach(System.out::println);
 		System.out.println("Demo ::::::: 1 2 3 4 5 ");
 		List<Integer> arr = IntStream.of(1, 2, 3, 4, 5).boxed().collect(Collectors.toList());
-		arr.forEach(System.out :: println);
+		arr.forEach(System.out::println);
 
 		System.out.println("Demo 8:::::::");
 		System.out.println("Demo 9:::::::");
